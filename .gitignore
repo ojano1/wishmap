@@ -1,0 +1,14 @@
+# Ignore Obsidian system folder
+.obsidian/*
+
+# Allow plugins dir back in
+!.obsidian/plugins/
+!.obsidian/plugins/**
+
+# Track only built files for WishMap (folder name must equal manifest "id")
+.obsidian/plugins/wishmap/**
+!.obsidian/plugins/wishmap/
+!.obsidian/plugins/wishmap/main.js
+!.obsidian/plugins/wishmap/manifest.json
+!.obsidian/plugins/wishmap/styles.css
+!.obsidian/plugins/wishmap/versions.json
