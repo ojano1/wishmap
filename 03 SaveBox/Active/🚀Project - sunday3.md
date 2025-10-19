@@ -33,7 +33,7 @@ Use this structure:
 ### ✍️ My Tasks
 - [[task – ]]
 - [[📌Task - sunday 3]]
-- 
+- [[🎯Goal - rollup]]
 
 ---
 

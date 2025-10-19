@@ -31,6 +31,7 @@ This way it would more friendly to your daily time budget.
 ---
 
 [[Link to the daily page]]
+[[✏️Note - coba]]
 
 ---
 

@@ -6,7 +6,7 @@ status: Active
 done: false
 priority: Medium
 tags: []
-duration_hours: 7
+duration_hours: 6
 _goal_sync_state: false
 ---
 

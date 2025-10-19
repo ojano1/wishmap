@@ -20,17 +20,14 @@ tags: []
 - **duration_hours**: Set a number. Example: 0.5 or 1.
 
 
-
+[[✏️Note - coba2]]
 ---
 
 ### Keep in mind
 - Split big tasks to keep them small enough for one sitting (target 1hr max).
 This way it would more friendly to your daily time budget.
 
-
----
-
----
+[[✏️Note - coba3]]
 
 <p align="center">MindMap OS © All rights reserved</p>
 

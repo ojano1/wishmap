@@ -34,6 +34,7 @@ Use this structure:
 - [[task – ]]
 - [[📌Task - fromlink]]
 - [[📌Task - coba]]
+- [[🎯Goal - rollup]]
 - 
 
 ---

@@ -33,6 +33,7 @@ Use this structure:
 - [[task – ]]
 - [[📌Task - afasfa]]
 - [[🎯Goal - rollup]]
+- [[✏️Note - try]]
 
 ---
 
