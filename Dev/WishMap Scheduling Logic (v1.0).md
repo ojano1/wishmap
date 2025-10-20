@@ -222,3 +222,14 @@ Show both structural and time tags for each node.
 4. Update Tree → display tags next to links.
 5. Build Time Tree → verify all nodes appear correctly.
 6. Add drag board → confirm tag writing works.
+
+New requirwment:
+
+On wish page, make kanban like 4 column of dinamic quarter, yyyy-Q1 - yyyy-Q4. Theyear display depan on today's date. Make it possible that the goals listed can be dragged into one of the columns. Based on colimn selection, update the goal's tag according to its Quarter column.
+
+On goal page, make 12  dinamic rows of month names. If children tasks has no due date,  Make the project **listed** draggable to that row and apply the month tag yyyy-01 - yyyy-12.  Title the rows same as the tags. Adjjuat the year according to created  date. So the month before the ctrated date will be labeled the next year. If the childern task already have due date, auto assign the project following the earliest due among the children. Ig nore children with no due. When children has due date, dim the rows and disable dragging . When due date change, remove old project tag and apply new month tag.
+When a project assigned a month tag, assign a year tag to the parwnt: goal. If the goal has children projects, apply the earliest year. 
+
+
+
+On project page, 
