@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Untitled.md",
+                "file": "Dev/WishMap Scheduling Logic (v1.0).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "WishMap Scheduling Logic (v1.0)"
             }
           }
         ],
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Untitled.md",
+                "file": "Dev/WishMap Scheduling Logic (v1.0).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for WishMap Scheduling Logic (v1.0)"
             }
           },
           {
@@ -301,12 +301,14 @@
   "active": "167a32f039273307",
   "lastOpenFiles": [
     "03 SaveBox/Active/🚀Project - base plan.md",
+    "03 SaveBox/Active/📌Task - job 1.md",
+    "Dev/WishMap Scheduling Logic (v1.0).md",
+    "01 Definition/✨Wish Map.md",
     "Dev/Untitled.md",
     "03 SaveBox/Active/📌Task - buy shoes.md",
     "03 SaveBox/Active/🎯Goal - 10k run.md",
     "02 Execution/1 Daily/2025-10-20 Monday.md",
     "Dev/WishMap multi-parent behavior.md",
-    "Dev/WishMap Scheduling Logic (v1.0).md",
     "Dev/product.md",
     "03 SaveBox/Templates/Task Template.md",
     "03 SaveBox/Active/✨Wish - rollup.md",
@@ -318,11 +320,9 @@
     "03 SaveBox/Templates/Quarterly Template.md",
     "03 SaveBox/Templates/Note Template.md",
     "03 SaveBox/Templates/Habit Template.md",
-    "01 Definition/✨Wish Map.md",
     "Dev/Prompt for 16 Oct.md",
     "03 SaveBox/Active/🚀Project - sunday3.md",
     "03 SaveBox/Active/🚀Project - sunday2.md",
-    "03 SaveBox/Active/📌Task - job 1.md",
     "03 SaveBox/Active/✏️Note - job1.md",
     "03 SaveBox/Active/📌Task - standalone.md",
     "03 SaveBox/Active/✏️Note - coba3.md",

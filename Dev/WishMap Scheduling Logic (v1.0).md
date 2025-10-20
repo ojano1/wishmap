@@ -231,5 +231,29 @@ On goal page, make 12  dinamic rows of month names. If children tasks has no due
 When a project assigned a month tag, assign a year tag to the parwnt: goal. If the goal has children projects, apply the earliest year. 
 
 
+### New Requirement
 
-On project page, 
+Make a new page called Time tree with the same style of wishmap tree. The new page consists of 12 month dynamic folders with name format: yyyy-01 Jan til yyyy-12 Dec. Sort it to the earliest year with respect to today's date. Aside to that, there are 2 more folders:  Unscheduled and Overdue. 
+
+If a project has child task with due dates, rewrite the project's due date following the latest due of child task. Put projects inside a month folder according to it's due date. Put ⚠️ emoji next to the project who still has child task with no due date. Remove when all tasks have due date. 
+
+Projects has default due date same as created date.
+
+A month folder may consist of multiple projects. Inside the month folder, there are  4 sub folders with name format W-xx (week number). Grey out the weeks before today. Projects are located inside the month folder but outside the subfolders. Put the project's tasks who has no due date in the ungrayed week of the project's month.
+
+
+- Unscheduled
+Put all unparented tasks without due date in the Unscheduled.  User can drag projects from both folders to the month folders and apply a month tag name following the folder name. 
+
+If one or some of the children of that project has due date, assign the  move the project from put the project in the earliest month folder. 
+
+
+
+
+
+Inside the subfolders are the tasks with due dates. If some tasks' due date fall on the next month put that task on the week subfolder of the next month accordingly. Also, move the project to the month of the latest task's due date and apply the project's due date same as the latest task. 
+
+If any of the project's tasks has no due date, put ⚠️ emoji next to the project. Remove the emoji only when all the children tasks has due date. 
+
+- Overdue
+Put the projects over due in the Overdue folder.
