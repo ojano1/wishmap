@@ -2,6 +2,7 @@
 created: 2025-10-22
 status: Active
 tags:
+  - Y2025
 ---
 
 ### 1. My Wish:
