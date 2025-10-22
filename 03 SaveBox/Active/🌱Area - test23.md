@@ -9,10 +9,9 @@ status: Active
 Read Instruction for help.*
 - [[✨Wish - drag1]]
 - [[✨Wish - drag2]]
-- 
+- [[✨Wish - mywiush]]
 - 
 
-⚠️= Not scheduled
 
 ---
 ### 3. My Yearly Schedule:

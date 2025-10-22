@@ -5,7 +5,7 @@ tags:
 ---
 
 ### 1. My Wish:
-✨Wish - drag1
+✨Wish - mywiush
 ### 2. ✍️My Goals:
 *Write links to your goal pages using prefix `goal`. Example:  `[[goal mygoal]]`. 
 Read Instruction for help.*
