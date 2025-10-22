@@ -1,10 +1,6 @@
-Wishmap is an Obsidian plugin that builds a visual, map-first productivity framework. The current dev branch (v0.2) has working **wikilink routing**, **page templating**, and **checkbox ↔ frontmatter sync**.
+Wishmap is an Obsidian plugin that builds a visual, map-first productivity framework. The current dev branch (v0.2) has working **wikilink routing**, **page templating**, and **checkbox ↔ frontmatter sync**. Typing [[task - write brief]] or [[task write brief]] instantly creates a properly formatted note in 03 SaveBox/Active, loads the right template, sets YAML (created, due, done), and renames the link so it resolves. Task, Project, and Goal notes now sync the first checkbox with the done: field in YAML in both directions. The hierarchy relation between notes is: Area-Wish-Goal-Project-Task. Any notes that has links in or out, will follow this rule. Next step: create columns in template pages so user can drag goals/projects/tasks to schedule them. I will give you related files and folder structure screenshot in batches. Do not start coding before I said done sending files. Acknowledge which files have you received on every batch. This is batch 1.
 
-Typing `[[task - write brief]]` or `[[task write brief]]` instantly creates a properly formatted note in `03 SaveBox/Active`, loads the right template, sets YAML (`created`, `due`, `done`), and renames the link so it resolves.
 
-Task, Project, and Goal notes now sync the first checkbox with the `done:` field in YAML in both directions. The hierarchy relation between notes is: Area-Wish-Goal-Project-Task. Any notes that has links in or out, will follow this rule.
-
-Next step: roll up children duration_hours values summed up at parent's duration _hours value.
 
 So main is in the dev root. fm, checkboxsync, periodics, rollupAuto, rollups, router, scaffold, templates, utils, wikilinks are inside src/core. habitAutolog, habitDaily, habitGraph are inside src/embeds. periodicMenu is inside src/ui
 

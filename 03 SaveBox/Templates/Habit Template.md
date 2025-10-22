@@ -15,4 +15,6 @@ impact: Medium
 
 ### ✍️ Log
 
+- [ ] 🔄Habit - Habit Template 2025-10-22 ^2025-10-22
+- [ ] 🔄Habit - Habit Template 2025-10-21 ^2025-10-21
 - [ ] 🔄Habit - Habit Template 2025-10-20 ^2025-10-20

@@ -8,147 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "96e10136b5c6cded",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "092e8882d123ce6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Definition/✨Wish Map.md",
+                "file": "03 SaveBox/Active/🌱Area - test23.md",
                 "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "✨Wish Map"
-            }
-          },
-          {
-            "id": "da09a373e5d7b54d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Task Template.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Task Template"
-            }
-          },
-          {
-            "id": "1bef61f14166c26b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Task Template.md",
-                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Task Template"
-            }
-          },
-          {
-            "id": "9db8ff6b46c47dd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Goal Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Goal Template"
-            }
-          },
-          {
-            "id": "44e8b15c8dc09e06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Task Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Task Template"
-            }
-          },
-          {
-            "id": "f2c184e2c975e840",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Goal Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Goal Template"
-            }
-          },
-          {
-            "id": "beb579bf5149f4a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Task Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Task Template"
-            }
-          },
-          {
-            "id": "37fbe2cdb2db74fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 SaveBox/Templates/Goal Template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Goal Template"
-            }
-          },
-          {
-            "id": "167a32f039273307",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/WishMap Scheduling Logic (v1.0).md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "WishMap Scheduling Logic (v1.0)"
+              "title": "🌱Area - test23"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -298,34 +171,34 @@
       "wishmap:WishMap: Periodic Notes": false
     }
   },
-  "active": "167a32f039273307",
+  "active": "092e8882d123ce6f",
   "lastOpenFiles": [
-    "03 SaveBox/Active/🚀Project - base plan.md",
-    "03 SaveBox/Active/📌Task - job 1.md",
-    "Dev/WishMap Scheduling Logic (v1.0).md",
+    "03 SaveBox/Active/✨Wish - drag1.md",
+    "03 SaveBox/Active/🌱Area - test23.md",
+    "03 SaveBox/Active/🌱Area - test 1.md",
+    "03 SaveBox/Active/✨Wish - drag2.md",
     "01 Definition/✨Wish Map.md",
-    "Dev/Untitled.md",
-    "03 SaveBox/Active/📌Task - buy shoes.md",
-    "03 SaveBox/Active/🎯Goal - 10k run.md",
-    "02 Execution/1 Daily/2025-10-20 Monday.md",
-    "Dev/WishMap multi-parent behavior.md",
-    "Dev/product.md",
-    "03 SaveBox/Templates/Task Template.md",
+    "03 SaveBox/Active/✨Wish - test1.md",
+    "03 SaveBox/Active/🔄Habit - test1.md",
+    "02 Execution/1 Daily/2025-10-22 Wednesday.md",
+    "03 SaveBox/Active/✨Wish - test2.md",
+    "03 SaveBox/Active/✨Wish - test3.md",
+    "03 SaveBox/Templates/Wish Template.md",
     "03 SaveBox/Active/✨Wish - rollup.md",
-    "03 SaveBox/Active/🌱Area - health.md",
-    "03 SaveBox/Templates/Starter Template.md",
-    "03 SaveBox/Templates/Project Template.md",
-    "03 SaveBox/Templates/Goal Template.md",
-    "03 SaveBox/Templates/Weekly Template.md",
-    "03 SaveBox/Templates/Quarterly Template.md",
-    "03 SaveBox/Templates/Note Template.md",
-    "03 SaveBox/Templates/Habit Template.md",
-    "Dev/Prompt for 16 Oct.md",
-    "03 SaveBox/Active/🚀Project - sunday3.md",
-    "03 SaveBox/Active/🚀Project - sunday2.md",
-    "03 SaveBox/Active/✏️Note - job1.md",
-    "03 SaveBox/Active/📌Task - standalone.md",
-    "03 SaveBox/Active/✏️Note - coba3.md",
+    "03 SaveBox/Active/Area 🌱- health.md",
+    "03 SaveBox/Active/🌱Area - tes20.md",
+    "03 SaveBox/Active/🌱Area - teast7.md",
+    "03 SaveBox/Active/✨Wish - teast1.md",
+    "03 SaveBox/Active/✨Wish - teast4.md",
+    "03 SaveBox/Active/✨Wish - teast7.md",
+    "03 SaveBox/Active/✨Wish - test19.md",
+    "03 SaveBox/Active/✨Wish - test9.md",
+    "03 SaveBox/Active/✨Wish - mywish2.md",
+    "03 SaveBox/Templates/Area Template.md",
+    "03 SaveBox/Active/🌱Area - teast 8.md",
+    "03 SaveBox/Active/✨Wish - test.md",
+    "03 SaveBox/Active/🌱Area - teast5.md",
+    "Dev/WishMap Scheduling Logic (v1.0).md",
     "Dev",
     "99 System",
     "04 Output",

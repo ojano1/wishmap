@@ -239,21 +239,26 @@ If a project has child task with due dates, rewrite the project's due date follo
 
 Projects has default due date same as created date.
 
-A month folder may consist of multiple projects. Inside the month folder, there are  4 sub folders with name format W-xx (week number). Grey out the weeks before today. Projects are located inside the month folder but outside the subfolders. Put the project's tasks who has no due date in the ungrayed week of the project's month.
+### Area page
+On area page under H3  ### 3. My Yearly Schedule:, make 2 dynamic year columns named yyyy starting from today's year. Under the H3 ### ✍️My Wishes: user will type wish links. If the wish link pages are realized and have year tags, move the wish links into the respective year column. If the wish link pages are created and don't have year tags yet, put emoji ⚠️ next to the link. Let user drag the wish with emoji ⚠️ into those columns and assign year tag with a name same as the column's name. List the wishes from other areas that has year tag in the respective column names. If user drag a wish from one column to another, update the year tag and remove all the tags under that are from wishes, goals, projects, and tasks, also reset the task due date empty.   
 
+### Wish page
+On wish page under H3  ### 📅My Quarterly Schedule:, make 4 dynamic quarter columns named yyyy-Q1 - yyyy-q4. If the wish has a quarter tag, sort with that quarter first. Else, sort on today's quarter first (no expired quarters). Under the H3 ### 🎯My Goals, user will type goal links. If the goals link page are realized and have quarter tag, move the goals into the quarter column accordingly. If the goals link page are created and don't have quarter tags yet, put emoji ⚠️ next to the goal name link. Let user drag the goals with emoji ⚠️ into those columns and assign quarter tag with a name same as the column's name. List the wishes from other areas that has quarter tag in the respective column names. 
 
-- Unscheduled
-Put all unparented tasks without due date in the Unscheduled.  User can drag projects from both folders to the month folders and apply a month tag name following the folder name. 
+### Goal page
+On goal page, make 4 dynamic quarter tabs named yyyy-Q1 til yyyy-Q4. If goal has a quarter tag, sort the tabs with the goal's quarter tag first. If not, sort by today's quarter first. Under each tab, make 3  month columns named yyyy-xx - yyyy-xx where xx is month number of that quarter.  Grey out and deactivate the expired months(can not be dragged into or out from).
+If the goal has a quarter tag, make that quarter tab active. If not, make today's quarter active. Under the H3 ### 🚀My Projects, user will type project  links. If that project link page is created and have month tag same as the column's name, move that project from that H3 list into the column. If the project link is created and has no month tag yet, put emoji ⚠️ next to the link. Let user drag the  ⚠️ project into the columns and assign a month tag according to that column. If the user open a different quarter tab than the goal's quarter tag and drag projects from H3 section into the month column of that quarter tab, force apply the month tag of that project according to the column of choice. If the children project falls in 2 quarters, or all projects fall in a different quarter than the parent goal's quarter tag,update the parent goal quarter tag according to the latest month tag of the children project. If user drag a project from a column to another, update the project's month tag to the new column. Update the goal parent quarter tab if needed, and reset empty the children task's due date.
 
-If one or some of the children of that project has due date, assign the  move the project from put the project in the earliest month folder. 
+### Project page
+On project page, make 3 dynamic month tabs named yyyy-xx where xx is the month number. If the project has a month tag, sort the tabs by that month tag first. If not, sort by today's month  first. Under the tab, make 4 columns of week names yyyy-Wxx. Grey out and deactivate the expired weeks (can not be dragged into or out from).
+If the project has a month tag, make that month tab active. If not, make today's month tab active. Under the H3 ### 📌My Tasks, user will type task  links. If that task link page is created and have week tag same as the column's name, move that task from that H3 list into the column. If the task link is created and has no week tag yet, put emoji ⚠ next to the link. Let user drag the  ⚠ task into the columns and assign a week tag according to that column. If the user open a different month tab than the project's  month tag and drag tasks from H3 section into the week column of that month tab, force apply the week tag of that task according to the column of choice. If the children task falls in 2 months, or all tasks fall in a different month than the parent project's month tag, update the parent project's month tag according to the latest week tag of the children task. If user drag a task from a column to another, update the task's week tag to the new column. Update the project parent month tab if needed, and reset empty the task's due date.
 
+### Task page
+On task page, make 4 dynamic week tabs named yyyy-Wxx where xx is the week number. If the task has a week tag, sort the tabs by that week tag first. If not, sort by today's week first. Under the tabs, make 7 columns of day names from Monday to Sunday. Grey out and deactivate the expired day's dates (can not be dragged into).
+If the task has a week tag, make that week tab active. If not, make today's date week tab active. Under the H3 ### 📌Same Project Tasks,  list all the tasks with the same project parent. Display the week tag next to the task's link name.
 
+If that task link page is created and has a due date,  move that task from that H3 list into that respective date's day column.
 
+If the task link is created and has no week tag yet, put emoji ⚠ next to the link. Let user drag the  ⚠ task into one of the columns and assign a week tag according to that column. If the user open a different month tab than the project's  month tag and drag tasks from H3 section into the week column of that month tab, force apply the week tag of that task according to the column of choice. Also update the parent project month tag. If the children task falls within 2 month names, or all tasks fall in a different month than the parent project's month tag, update the parent project's month tag according to the latest week tag of the children task. If user drag a task from a column to another, update the task's week tag to the new column's name. Update the project parent month tab if needed, and reset empty the task's due date.
 
-
-Inside the subfolders are the tasks with due dates. If some tasks' due date fall on the next month put that task on the week subfolder of the next month accordingly. Also, move the project to the month of the latest task's due date and apply the project's due date same as the latest task. 
-
-If any of the project's tasks has no due date, put ⚠️ emoji next to the project. Remove the emoji only when all the children tasks has due date. 
-
-- Overdue
-Put the projects over due in the Overdue folder.
+If the task

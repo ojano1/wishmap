@@ -1,12 +1,14 @@
 ---
-created: {{date}}
+created: 2025-10-22
 status: Active
 ---
 ### 1. My Area:
+🌱Area - test23
 ### 2. ✍️My Wishes:
 *Write links to your wish pages using prefix `wish`. Example:  `[[wish mywish]]`. 
 Read Instruction for help.*
-- 
+- [[✨Wish - drag1]]
+- [[✨Wish - drag2]]
 - 
 - 
 

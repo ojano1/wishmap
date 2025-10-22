@@ -1,8 +1,139 @@
-/*
+.wm-year-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.wm-year-col,
+.wm-tray {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+}
 
-If your plugin does not need CSS, delete this file.
+.wm-year-col--header,
+.wm-tray--header {
+  font-weight: 600;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
 
-*/
+.wm-year-col--body,
+.wm-tray--body {
+  padding: 6px 8px;
+  min-height: 48px;
+}
+
+.wm-wish-item {
+  display: block;
+  padding: 2px 0;
+}
+
+.wm-muted {
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.wm-drop-active {
+  outline: 2px dashed var(--interactive-accent);
+  outline-offset: -2px;
+}
+/* === YEARLY GRID LAYOUT === */
+.wm-year-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+/* === COLUMN CONTAINER === */
+.wm-year-col {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--background-secondary); /* header background */
+}
+
+/* === YEAR HEADER === */
+.wm-year-col--header {
+  padding: 10px 12px;
+  font-weight: 700;
+  text-align: center;                 /* center the header text */
+  background: var(--background-secondary);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* === BODY (white cell area) === */
+.wm-year-col--body {
+  min-height: 140px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--background-primary); /* white area */
+}
+
+.wm-year-col--body.is-dragover {
+  outline: 2px dashed var(--text-accent);
+  outline-offset: -4px;
+  background: var(--background-modifier-hover);
+}
+
+/* === UNSCHEDULED SECTION === */
+.wm-unscheduled {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.wm-unscheduled--header {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* === CARD STYLE === */
+.wm-wish-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  cursor: grab;
+  user-select: none;
+}
+
+.wm-wish-card.is-external {
+  opacity: 0.7;
+}
+
+/* === HIDE HOVER PREVIEW WHILE DRAGGING === */
+body.wm-dragging .popover,
+body.wm-dragging .mod-hover-popover,
+body.wm-drag-intent .popover,
+body.wm-drag-intent .mod-hover-popover {
+  display: none !important;
+}
+/* layout and cards (if not already added) */
+.wm-year-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; }
+.wm-year-col { border: 1px solid var(--background-modifier-border); border-radius: 6px; }
+.wm-year-col--header { padding: 8px 10px; font-weight: 600; }
+.wm-year-col--body { min-height: 120px; padding: 6px 8px; }
+.wm-year-col--body.is-dragover { outline: 2px dashed var(--text-accent); outline-offset: -4px; }
+
+.wm-unscheduled { margin-top: 12px; border-top: 1px solid var(--background-modifier-border); padding-top: 8px; }
+.wm-unscheduled--header { font-weight: 600; margin-bottom: 6px; }
+
+.wm-wish-card { padding: 6px 8px; border: 1px solid var(--background-modifier-border); border-radius: 6px; margin-bottom: 6px; cursor: grab; user-select: none; }
+.wm-wish-card.is-external { opacity: 0.7; }
+
+/* hide hover popover during drag or long-press intent */
+body.wm-dragging .popover,
+body.wm-dragging .mod-hover-popover,
+body.wm-drag-intent .popover,
+body.wm-drag-intent .mod-hover-popover {
+  display: none !important;
+}
+
