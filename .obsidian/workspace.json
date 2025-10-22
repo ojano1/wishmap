@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 SaveBox/Active/🌱Area - test23.md",
-                "mode": "preview",
+                "file": "Dev/Brief for 23 Oct.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "🌱Area - test23"
+              "title": "Brief for 23 Oct"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 SaveBox/Active/🌱Area - test23.md",
+                "file": "Dev/Brief for 23 Oct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 🌱Area - test23"
+              "title": "Backlinks for Brief for 23 Oct"
             }
           },
           {
@@ -173,8 +173,9 @@
   },
   "active": "092e8882d123ce6f",
   "lastOpenFiles": [
-    "03 SaveBox/Active/✨Wish - mywiush.md",
     "03 SaveBox/Active/🌱Area - test23.md",
+    "Dev/Brief for 23 Oct.md",
+    "03 SaveBox/Active/✨Wish - mywiush.md",
     "03 SaveBox/Active/✨Wish - drag1.md",
     "03 SaveBox/Active/✨Wish - drag2.md",
     "03 SaveBox/Active/🌱Area - test 1.md",
@@ -198,7 +199,6 @@
     "03 SaveBox/Templates/Area Template.md",
     "03 SaveBox/Active/🌱Area - teast 8.md",
     "03 SaveBox/Active/✨Wish - test.md",
-    "03 SaveBox/Active/🌱Area - teast5.md",
     "Dev",
     "99 System",
     "04 Output",
